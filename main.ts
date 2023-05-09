@@ -23,7 +23,7 @@ radio.onReceivedValue(function (name, value) {
 })
 let y = 0
 let x = 0
-led.setBrightness(25)
+led.setBrightness(24)
 radio.setGroup(1)
 RingbitCar.init_wheel(AnalogPin.P0, AnalogPin.P1)
 basic.forever(function () {
